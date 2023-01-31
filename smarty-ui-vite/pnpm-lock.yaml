@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@vitejs/plugin-vue': 3.0.3
   vite: 3.0.7
   vue: 3.2.37
 
@@ -8,6 +9,7 @@ dependencies:
   vue: 3.2.37
 
 devDependencies:
+  '@vitejs/plugin-vue': 3.0.3_vite@3.0.7+vue@3.2.37
   vite: 3.0.7
 
 packages:
@@ -26,6 +28,17 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@vitejs/plugin-vue/3.0.3_vite@3.0.7+vue@3.2.37:
+    resolution: {integrity: sha512-U4zNBlz9mg+TA+i+5QPc3N5lQvdUXENZLO2h0Wdzp56gI1MWhqJOv+6R+d4kOzoaSSq6TnGPBdZAXKOe4lXy6g==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    peerDependencies:
+      vite: ^3.0.0
+      vue: ^3.2.25
+    dependencies:
+      vite: 3.0.7
+      vue: 3.2.37
+    dev: true
 
   /@vue/compiler-core/3.2.37:
     resolution: {integrity: sha512-81KhEjo7YAOh0vQJoSmAD68wLfYqJvoiD4ulyedzF+OEk/bk6/hx3fTNVfuzugIIaTrOx4PGx6pAiBRe5e9Zmg==}
